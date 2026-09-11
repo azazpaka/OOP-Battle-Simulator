@@ -12,8 +12,9 @@ def main():
 
     goblin = Goblin("Scary Larry")
 
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
-    print(f"{goblin.name} is rotting on his computer with {goblin.health} health, and he lowk stink.")
+    print(f"{goblin.name} is rotting on his computer with {goblin.health} health, and he lowk stanky.")
+    goblin2=Goblin("Scary Le Terry")
+    print(f"{goblin2.name} is rotting on his phone with {goblin2.health} health, and he smells bad.")
     print("But no hero has answered the call... yet.")
 
 
