@@ -2,6 +2,8 @@ import random
 from goblin import Goblin
 from hero import Hero
 from random import randint
+from enemy import Enemy
+from boss import Boss
 
 
 ARENA_NAME = "Scary Larry's Domain"
@@ -36,6 +38,10 @@ def main():
                 print(f"{goblin.name} does a critical stanky strike!")
                 goblindamage=goblin.attack()+40
         hero.take_damage(goblindamage)
+
+        bossguy=Boss("Scary Larry's Dad")
+        
+
 
 
 
